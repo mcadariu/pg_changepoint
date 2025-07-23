@@ -1,0 +1,4 @@
+comment = 'find change points in timeseries data'
+default_version = '1.0'
+module_pathname = '$libdir/pg_change_point_detection'
+relocatable = true
