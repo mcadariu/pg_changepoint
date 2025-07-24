@@ -1,12 +1,10 @@
-# pg_change_point_detection
+# pg_changepoint
 
 (*Under development*) 
 
 A PostgreSQL extension implementing the ED-PELT (Efficient Detection - Pruned Exact Linear Time) algorithm for changepoint detection in time series data. It's a conversion to C of [Andrey Akinshin's C# implementation](https://aakinshin.net/posts/edpelt/).
 
-Reference paper:
-
-Haynes, Kaylea, Paul Fearnhead, and Idris A. Eckley. "A computationally efficient nonparametric approach for changepoint detection." Statistics and Computing 27, no. 5 (2017): 1293-1305.
+For an intro to changepoint analysis, see this tutorial by [Dr Rebecca Killick](https://www.youtube.com/watch?v=WelmlZK5G2Y).
 
 # Usage
 
