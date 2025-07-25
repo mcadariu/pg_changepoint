@@ -8,7 +8,7 @@ For an intro to changepoint analysis, see this tutorial by [Dr Rebecca Killick](
 
 # Usage
 
-### With ARRAY
+## ARRAY
 
 ```sql
 test=# SELECT pg_change_point_detection(ARRAY[0,0,0,0,0,0,1,1,1,1,1,5,5,5,5,5,5,5,5]::float8[]) AS changepoints;
@@ -17,7 +17,7 @@ test=# SELECT pg_change_point_detection(ARRAY[0,0,0,0,0,0,1,1,1,1,1,5,5,5,5,5,5,
  {5,10}
 ```
 
-### Timeseries table
+## Timeseries table
 
 #### Create temporary table
 
