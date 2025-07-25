@@ -8,7 +8,7 @@ For an intro to changepoint analysis, see this tutorial by [Dr Rebecca Killick](
 
 # Usage
 
-## With ARRAY
+### With ARRAY
 
 ```sql
 test=# SELECT pg_change_point_detection(ARRAY[0,0,0,0,0,0,1,1,1,1,1,5,5,5,5,5,5,5,5]::float8[]) AS changepoints;
@@ -17,9 +17,9 @@ test=# SELECT pg_change_point_detection(ARRAY[0,0,0,0,0,0,1,1,1,1,1,5,5,5,5,5,5,
  {5,10}
 ```
 
-## Timeseries table
+### Timeseries table
 
-### Create temporary table
+#### Create temporary table
 
 ```sql
 CREATE TEMP TABLE sensor_data (
@@ -29,7 +29,7 @@ CREATE TEMP TABLE sensor_data (
 );
 ```
 
-### Populate table with data
+#### Populate table with data
 
 ```sql
 INSERT INTO sensor_data (timestamp, value)
@@ -43,7 +43,7 @@ SELECT
 FROM generate_series(1, 60) AS i;
 ```
 
-### 
+#### Query
 
 ```sql
 SELECT pg_change_point_detection_in_column(                                                                                                                                                                                                 'sensor_data',     -- table name
