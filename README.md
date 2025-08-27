@@ -2,7 +2,7 @@
 
 (*Under development*) 
 
-A PostgreSQL extension implementing the ED-PELT (Efficient Detection - Pruned Exact Linear Time) algorithm for changepoint detection in time series data. It's based on [Andrey Akinshin's C# implementation](https://aakinshin.net/posts/edpelt/).
+[Change points](https://pmc.ncbi.nlm.nih.gov/articles/PMC5464762/) are abrupt variations in time series data. This is a PostgreSQL extension implementing the ED-PELT (Efficient Detection - Pruned Exact Linear Time) algorithm for change point detection in time series data. It's based on [Andrey Akinshin's C# implementation](https://aakinshin.net/posts/edpelt/).
 
 For an intro to changepoint analysis, see this tutorial by [Dr Rebecca Killick](https://www.youtube.com/watch?v=WelmlZK5G2Y).
 
