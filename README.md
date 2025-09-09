@@ -2,7 +2,7 @@
 
 (*Under development*) 
 
-[Change points](https://pmc.ncbi.nlm.nih.gov/articles/PMC5464762/) are abrupt variations in time series data. This is a PostgreSQL extension which contains functions for detecing change points. It is a port of [Andrey Akinshin's](https://aakinshin.net/posts/edpelt/) implementation of the ED-PELT algorithm in C#. 
+[Change points](https://pmc.ncbi.nlm.nih.gov/articles/PMC5464762/) are abrupt variations in time series data. This is a PostgreSQL extension which contains functions for detecting change points. It is a port of [Andrey Akinshin's](https://aakinshin.net/posts/edpelt/) implementation of the ED-PELT algorithm in C#. 
 
 For an intro to changepoint analysis, see this tutorial by [Dr Rebecca Killick](https://www.youtube.com/watch?v=WelmlZK5G2Y).
 
