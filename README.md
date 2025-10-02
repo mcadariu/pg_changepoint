@@ -1,7 +1,5 @@
 # pg_changepoint
 
-(*Under development*) 
-
 [Change points](https://en.wikipedia.org/wiki/Change_detection) are abrupt variations in time series data. pg_changepoint is a PostgreSQL extension for detecting change points. It is a port of [Andrey Akinshin's](https://aakinshin.net/posts/edpelt/) implementation of the ED-PELT algorithm in C#. 
 
 For an intro to changepoint analysis, see this tutorial by [Dr Rebecca Killick](https://www.youtube.com/watch?v=WelmlZK5G2Y).
