@@ -5,7 +5,7 @@ Matt Fleming or check out the paper [The Use of Change Point Detection to Identi
 
 `pg_changepoint` is a PostgreSQL extension for detecting change points in the table data. It is a port of [Andrey Akinshin's](https://aakinshin.net/posts/edpelt/) implementation of the ED-PELT algorithm in C#. 
 
-For an intro to changepoint analysis, see this tutorial by [Dr Rebecca Killick](https://www.youtube.com/watch?v=WelmlZK5G2Y).
+For a broader introduction to changepoint analysis, see this tutorial by [Dr Rebecca Killick](https://www.youtube.com/watch?v=WelmlZK5G2Y).
 
 # Usage
 
