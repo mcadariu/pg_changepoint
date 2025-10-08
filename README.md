@@ -1,6 +1,6 @@
 # pg_changepoint
 
-[Change points](https://en.wikipedia.org/wiki/Change_detection) are abrupt variations in time series data. It is useful for many use-cases, for example you can view the talk [Using Change Point Detection to Fight Noisy Benchmark Results](https://www.p99conf.io/session/using-change-point-detection-to-fight-noisy-benchmark-results/) by 
+[Change points](https://en.wikipedia.org/wiki/Change_detection) are abrupt variations in time series data. The concept is useful for many use-cases, for example you can view the talk [Using Change Point Detection to Fight Noisy Benchmark Results](https://www.p99conf.io/session/using-change-point-detection-to-fight-noisy-benchmark-results/) by 
 Matt Fleming.
 `pg_changepoint` is a PostgreSQL extension for detecting change points. It is a port of [Andrey Akinshin's](https://aakinshin.net/posts/edpelt/) implementation of the ED-PELT algorithm in C#. 
 
